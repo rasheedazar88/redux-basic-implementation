@@ -10,6 +10,7 @@ const AddTodo = () => {
     function onSubmit(e){
         e.preventDefault();
         dispatch({type: 'ADD_TODO', state: todo})
+        setTodo('')
     }
 
     
