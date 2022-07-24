@@ -1,23 +1,20 @@
 import React from "react";
-import AddTodo from "./Components/AddTodo";
-import ViewTodo from "./Components/ViewTodo";
 import { Provider  } from "react-redux";
-import store from "./Redux/ConfigureStore";
+import Employee from "./Components/Employee";
+import ViewEmployeeDetails from "./Components/ViewEmployee";
 
 const App = () => {
   return (
-    <Provider store={store}>
     <div className="container">
       <div className="row">
         <div className="col-md-6">
-          <AddTodo />
+          <Employee />
         </div>
         <div className="col-md-6">
-          <ViewTodo />
-        </div>
+            <ViewEmployeeDetails />
+         </div>
       </div>
     </div>
-    </Provider>
   );
 };
 
