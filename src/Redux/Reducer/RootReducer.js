@@ -2,7 +2,7 @@ import EmployeeReducer from "./EmployeeReducer";
 import { combineReducers } from "redux";
 
 const RootReducer = combineReducers({
-    Employee: EmployeeReducer
+    Employees_Data: EmployeeReducer
 })
 
 export default RootReducer

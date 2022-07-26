@@ -1,17 +1,14 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { SELECT_EMPLOYEE } from '../Redux/Action/ActionTypes';
-import Employee from './Employee';
-
+import store from '../Redux/Store/ConfigureStore';
 const ViewEmployeeDetails = () => {
 
-const empData = useSelector((state)=>(state.Employee.empData))
+const employees = useSelector((state)=>(state.Employees_Data.employees))
 
-const dispatch = useDispatch(); 
-
-const selectEmployee=(empID)=>{
-    dispatch({type: SELECT_EMPLOYEE, selectedEmployee: empID})
-    
+const selectEmployee=(selected_employee)=>{
+    // dispatch({type: SELECT_EMPLOYEE, selectedEmployee: selected_employee})
+    store.dispatch({type: SELECT_EMPLOYEE, selectedEmployee: selected_employee})
 }
 
 
@@ -22,8 +19,8 @@ const selectEmployee=(empID)=>{
         </div>
         <ul className='list-group rounded-1 border-1 border-success p-1' >
             {
-                empData.map((item, index)=>
-                    <li onClick={(e)=>selectEmployee(item.empID)} className='card m-1' key={index}>
+                employees.map((item, index)=>
+                    <li onClick={(e)=>selectEmployee(item)} className='card m-1' key={index}>
                         <div className='form-control'>
                             <h6>Employee ID: {item.empID}</h6>
                             <p>Name: {item.name}</p>

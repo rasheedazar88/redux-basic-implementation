@@ -10,10 +10,9 @@ const Employee = () => {
 
    
     const dispatch = useDispatch();
+    let initialState = { empID: '', name: '', email: '', tel: '', bldGp: ''}
     
-    const [empDetails, setempDetails] = useState({
-      empID: '', name: '', email: '', tel: '', bldGp: ''
-    })
+    const [empDetails, setempDetails] = useState(initialState)
     
     function onSubmit(e){
         e.preventDefault();
