@@ -14,11 +14,12 @@ function EmployeeReducer(state=initialState, action) {
         return [...state, action.state]
 
         
-        case 'SELECT_EMPLOYEE': 
-        
-        return{
-            ...state,
-            selectedEmployee: action.selectedEmployee
+        case 'DELETE_EMPLOYEE':
+                const idToRemove = action.state.empID; 
+                const filteredEmployees = state.employees.filter((item)=>item.empID !== idToRemove)
+        return {
+            ...state, 
+            employees: state.employees.filter((item)=>item.empID !== idToRemove)
         }
         default: return state
     }

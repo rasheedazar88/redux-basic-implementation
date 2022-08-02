@@ -4,8 +4,8 @@ export function AddEmployee(){
     }
 }
 
-export function selectedEmployee(empID){
+export function DeleteEmployee(){
     return {
-        type: 'SELECT_EMPLOYEE'
+        type: 'DELETE_EMPLOYEE'
     }
 }
