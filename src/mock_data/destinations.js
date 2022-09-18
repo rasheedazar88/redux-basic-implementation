@@ -557,8 +557,8 @@ export const destinations = [
             "config"
         ],
         "images": {
-            "left": "https://app.customerlabs.com/static/Img/emblue-logo.png",
-            "logo": "https://app.customerlabs.com/static/Img/emblue-logo.pngstatic/Img/emblue-logo.png",
+            "left": "https://app.customerlabs.com/static/Img/emblue-line.png",
+            "logo": "https://app.customerlabs.com/static/Img/emblue-logo.png",
         },
         "price": 9,
         "subscribed": false,
