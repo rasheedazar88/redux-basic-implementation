@@ -158,6 +158,10 @@
     border-radius: 10px;
     cursor: pointer;
 }
+.navigation_section:hover {
+    box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+    cursor: pointer;
+}
 .nav_header_inter {
     font-size: 20px;
     font-weight: 300;
