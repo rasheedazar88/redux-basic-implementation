@@ -354,8 +354,8 @@ export const destinations = [
             "server"
         ],
         "settings_available": [
-            "accounts",
-            "event_mappings",
+            "config",
+            "path",
             "source_config"
         ],
         "images": {
