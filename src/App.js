@@ -3,6 +3,8 @@ import { Provider  } from "react-redux";
 import Employee from "./Components/Employee";
 import ViewEmployeeDetails from "./Components/ViewEmployee";
 import { connect, useDispatch, useSelector } from 'react-redux'
+import AppComponent from "./pages/thinkingInReact/ThinkingInReact";
+import { destinations } from "./mock_data/destinations";
 
 const App = () => {
 
@@ -11,14 +13,15 @@ const App = () => {
   
   return (
     <div className="container">
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md-6">
           <Employee />
         </div>
         <div className="col-md-6">
             <ViewEmployeeDetails />
          </div>
-      </div>
+      </div> */}
+      <AppComponent destinations={destinations} />
     </div>
   );
 };
