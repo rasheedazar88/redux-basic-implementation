@@ -5,7 +5,7 @@ const DestinationList=(props)=>{
     props.destinations.forEach((destination)=>{
         if(destination.name.indexOf(props.filteredText)===-1) {
             return
-        }
+        } 
         rows.push(destination)
     })
     
