@@ -15,6 +15,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupzapier.svg",
             "logo": "https://app.customerlabs.com/static/Img/zapier.png",
         },
         "price": 15,
@@ -42,6 +43,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupwebhook_flow.png",
             "logo": "https://app.customerlabs.com/static/Img/webhook.png",
         },
         "price": 49,
@@ -71,6 +73,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/send-in-blue-fly.png",
             "logo": "https://app.customerlabs.com/static/Img/send-in-blue-logo.png",
         },
         "price": 9,
@@ -109,6 +112,7 @@ export const destinations = [
             "path"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupsegment.svg",
             "logo": "https://app.customerlabs.com/static/Img/segment.png",
         },
         "price": 20,
@@ -136,6 +140,7 @@ export const destinations = [
             "path"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupmixpanel.png",
             "logo": "https://app.customerlabs.com/static/Img/mix_logo.png",
         },
         "price": 9,
@@ -161,6 +166,7 @@ export const destinations = [
             "config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/linkedIn_side.png",
             "logo": "https://app.customerlabs.com/static/Img/linkedIn_logo.png",
         },
         "price": 9,
@@ -191,6 +197,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/klaviyo_side.png",
             "logo": "https://app.customerlabs.com/static/Img/klaviyo_logo.png",
         },
         "price": 9,
@@ -229,6 +236,7 @@ export const destinations = [
             "path"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/GroupiZooto.png",
             "logo": "https://app.customerlabs.com/static/Img/iZooto.png",
         },
         "price": 9,
@@ -256,6 +264,7 @@ export const destinations = [
             "path"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupintercom_whole.png",
             "logo": "https://app.customerlabs.com/static/Img/inter_logo.png",
         },
         "price": 9,
@@ -294,6 +303,7 @@ export const destinations = [
             "path"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/indicative_right.png",
             "logo": "https://app.customerlabs.com/static/Img/indicative_logo.png",
         },
         "price": 9,
@@ -321,6 +331,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/iiintent_side.png",
             "logo": "https://app.customerlabs.com/static/Img/iiintent_logo.png",
         },
         "price": 9,
@@ -348,6 +359,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/sheets_flow.png",
             "logo": "https://app.customerlabs.com/static/Img/g_sheets.png",
         },
         "price": 9,
@@ -377,6 +389,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupgoogle_line.png",
             "logo": "https://app.customerlabs.com/static/Img/ga.jpg",
         },
         "price": 9,
@@ -417,6 +430,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupgoogle_line.png",
             "logo": "https://app.customerlabs.com/static/Img/ga.jpg",
         },
         "price": 9,
@@ -446,6 +460,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left":"https://app.customerlabs.com/static/Img/aw_left.png",
             "logo": "https://app.customerlabs.com/static/Img/aw_logo.png",
         },
         "price": 9,
@@ -473,6 +488,7 @@ export const destinations = [
             "path"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/gist-small.png",
             "logo": "https://app.customerlabs.com/static/Img/gist-small.png",
         },
         "price": 9,
@@ -504,6 +520,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupfacebook.svg",
             "logo": "https://app.customerlabs.com/static/Img/facebook_.png",
         },
         "price": 9,
@@ -540,6 +557,7 @@ export const destinations = [
             "config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/emblue-logo.png",
             "logo": "https://app.customerlabs.com/static/Img/emblue-logo.pngstatic/Img/emblue-logo.png",
         },
         "price": 9,
@@ -569,6 +587,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupdrip.png",
             "logo": "https://app.customerlabs.com/static/Img/drip.png",
         },
         "price": 9,
@@ -594,6 +613,7 @@ export const destinations = [
             "''"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/Groupcustom.svg",
             "logo": "https://app.customerlabs.com/static/Img/Groupcustom.png",
         },
         "price": 40,
@@ -634,6 +654,7 @@ export const destinations = [
             "source_config"
         ],
         "images": {
+            "left":"https://app.customerlabs.com/static/Img/cl-io-side.png",
             "logo": "https://app.customerlabs.com/static/Img/customerio.png",
         },
         "price": 9,
@@ -661,6 +682,7 @@ export const destinations = [
             "path"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/covert_balloon.png",
             "logo": "https://app.customerlabs.com/static/Img/covert-small.png",
         },
         "price": 9,
@@ -686,6 +708,7 @@ export const destinations = [
             "config"
         ],
         "images": {
+            "left": "https://app.customerlabs.com/static/Img/bigquery_flow.png",
             "logo": "https://app.customerlabs.com/static/Img/bq_logo.png",
         },
         "price": 9,
