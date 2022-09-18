@@ -96,6 +96,10 @@
     height: 250px;
     position: relative;
 }
+.intergration_tools:hover {
+    box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+    cursor: pointer;
+}
 .inter_name {
     font-family: lato;
     font-weight: 400;
